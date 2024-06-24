@@ -1,0 +1,104 @@
+/* Container for the entire component */
+.date-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.date-selection-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+/* Paragraph styles */
+.date-selection-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Steps list styles */
+.step-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.step-item {
+  font-size: 1rem;
+  color: #999;
+}
+
+.step-item.active {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Form styles */
+.form {
+  width: 100%;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.navigation-button:first-child {
+  margin-left: 0;
+}
+
+.navigation-button:last-child {
+  margin-right: 0;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}

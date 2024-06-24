@@ -1,0 +1,83 @@
+/* Container for the entire component */
+.travel-assistance-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading styles */
+.travel-assistance-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph styles */
+.travel-assistance-container p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Form styles */
+.travel-assistance-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Checkbox styles */
+.travel-assistance-checkbox {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Assistance selection container */
+.assistance-selection {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Assistance label styles */
+.assistance-label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Assistance select styles */
+.assistance-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Container for navigation buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Navigation buttons */
+.navigation-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}

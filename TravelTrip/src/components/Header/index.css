@@ -1,0 +1,85 @@
+/* Container for the entire header */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #004080;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title styles */
+.nav-title {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.nav-title-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-title-link:hover {
+  color: #d1eaff;
+}
+
+/* Center container styles for centering nav links */
+.nav-links {
+  display: flex;
+  gap: 20px; /* Adds space between links */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #d1eaff;
+}
+
+/* Logout button styles */
+.logout-button {
+  padding: 10px 20px;
+  background-color: #ff4757;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e84141;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .logout-button {
+    margin-top: 10px;
+  }
+}

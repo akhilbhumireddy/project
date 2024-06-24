@@ -1,0 +1,95 @@
+/* Container for the entire component */
+.guests-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading styles */
+.guests-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph styles */
+.guests-container p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Guest selection container */
+.guest-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Each guest type container */
+.guest-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Guest type title */
+.guest-title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Guest age description */
+.guest-age {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Guest count display */
+.guest-count {
+  font-size: 1.2rem;
+  width: 40px;
+  text-align: center;
+}
+
+/* Buttons for increment and decrement */
+.guest-button {
+  width: 30px; /* Fixed width to ensure uniform size */
+  height: 30px; /* Fixed height to ensure uniform size */
+  padding: 5px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.guest-button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for navigation buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Navigation buttons (Previous and Next) */
+.navigation-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}
